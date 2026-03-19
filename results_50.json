@@ -1,0 +1,913 @@
+{
+  "summary": {
+    "total": 50,
+    "successful": 50,
+    "failed": 0,
+    "cached": 0,
+    "model": "qwen3:14b",
+    "elapsed_seconds": 4323.4,
+    "avg_seconds_per_contract": 86.5
+  },
+  "results": [
+    {
+      "id": "C001-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-001",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES COMO ABOGADO PARA APOYAR LA GESTION JURIDICA EN EL AREA DE CONTRATACION",
+        "nombre_contratista": "INVERSIONES PIEDECUESTA S.A.",
+        "vigencia": "3 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-01-20",
+        "valor": 25300000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 90168.36
+    },
+    {
+      "id": "C002-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-002",
+        "objeto_contractual": "CONSTRUCCION DE PAVIMENTO RIGIDO EN LA CARRERA 15 ENTRE CALLES 30 Y 45 DEL BARRIO ALARCON",
+        "nombre_contratista": "INGENIERIA CIVIL DEL ORIENTE LTDA",
+        "vigencia": "8 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-03-01",
+        "valor": 500000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 45990.7
+    },
+    {
+      "id": "C003-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-003",
+        "objeto_contractual": "SUMINISTRO DE RACIONES ALIMENTARIAS PARA EL PROGRAMA DE ALIMENTACION ESCOLAR PAE",
+        "nombre_contratista": "ANDREA PATRICIA GOMEZ RUIZ",
+        "vigencia": "nueve (9) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-03-10",
+        "valor": 245000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 152537.2
+    },
+    {
+      "id": "C004-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-004",
+        "objeto_contractual": "CONSULTORIA PARA EL ESTUDIO DE IMPACTO AMBIENTAL DEL PROYECTO VIAL ANILLO DE BUCARAMANGA",
+        "nombre_contratista": "SUMINISTROS INDUSTRIALES ANDINOS S.A.",
+        "vigencia": "8 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-03-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 226442.26
+    },
+    {
+      "id": "C005-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-005",
+        "objeto_contractual": "COMPRAVENTA DE VEHICULO TIPO CAMIONETA DOBLE CABINA 4X4 PARA USO INSTITUCIONAL",
+        "nombre_contratista": "ANA MARIA CASTILLO DUARTE",
+        "vigencia": "diez (10) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-15",
+        "valor": 12000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 304529.14
+    },
+    {
+      "id": "C006-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-006",
+        "objeto_contractual": "ARRENDAMIENTO DE SALON PARA EVENTOS INSTITUCIONALES Y CAPACITACIONES",
+        "nombre_contratista": "CONSULTORES ASOCIADOS DEL NORORIENTE S.A.S.",
+        "vigencia": "cinco (5) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-04-01",
+        "valor": 500000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 400299.12
+    },
+    {
+      "id": "C007-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-007",
+        "objeto_contractual": "ARTICULACION INTERINSTITUCIONAL PARA LA EJECUCION DEL PLAN DE CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+        "nombre_contratista": "SUMINISTROS INDUSTRIALES ANDINOS S.A.",
+        "vigencia": "1 mes",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-06-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 487243.71
+    },
+    {
+      "id": "C008-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-008",
+        "objeto_contractual": "CONVENIO DE ASOCIACION PARA EL FORTALECIMIENTO DE ORGANIZACIONES COMUNITARIAS EN ZONA RURAL",
+        "nombre_contratista": "SOLUCIONES AMBIENTALES DEL ORIENTE S.A.S.",
+        "vigencia": "1 mes",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-06-01",
+        "valor": 25300000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 569974.7
+    },
+    {
+      "id": "C009-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-009",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES COMO ABOGADO PARA APOYAR LA GESTION JURIDICA EN EL AREA DE CONTRATACION",
+        "nombre_contratista": "PEDRO LUIS RAMIREZ ORTIZ",
+        "vigencia": "8 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-03-01",
+        "valor": 63900000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 655927.16
+    },
+    {
+      "id": "C010-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-010",
+        "objeto_contractual": "CONSTRUCCION DE PAVIMENTO RIGIDO EN LA CARRERA 15 ENTRE CALLES 30 Y 45 DEL BARRIO ALARCON.",
+        "nombre_contratista": "CARLOS ANDRES MARTINEZ LOPEZ",
+        "vigencia": "10 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-15",
+        "valor": 360800000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 751998.14
+    },
+    {
+      "id": "C011-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-011",
+        "objeto_contractual": "SUMINISTRO DE RACIONES ALIMENTARIAS PARA EL PROGRAMA DE ALIMENTACION ESCOLAR PAE",
+        "nombre_contratista": "CAMILA ANDREA SANCHEZ LEON",
+        "vigencia": "5 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-04-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 833022.17
+    },
+    {
+      "id": "C012-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-012",
+        "objeto_contractual": "CONSULTORIA PARA LA ACTUALIZACION DEL PLAN DE ORDENAMIENTO TERRITORIAL DEL MUNICIPIO",
+        "nombre_contratista": "SUMINISTROS INDUSTRIALES ANDINOS S.A.",
+        "vigencia": "5 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-04-01",
+        "valor": 91200000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 923691.64
+    },
+    {
+      "id": "C013-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-013",
+        "objeto_contractual": "COMPRAVENTA DE EQUIPOS MEDICOS PARA LOS CENTROS DE SALUD DE LA RED PUBLICA MUNICIPAL",
+        "nombre_contratista": "ANA MARIA CASTILLO DUARTE",
+        "vigencia": "9 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-03-10",
+        "valor": 63900000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1012535.97
+    },
+    {
+      "id": "C014-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-014",
+        "objeto_contractual": "ARRENDAMIENTO DE INMUEBLE UBICADO EN LA CALLE 36 No. 18-20 PARA FUNCIONAMIENTO DE LA SECRETARIA DE GOBIERNO",
+        "nombre_contratista": "GRUPO EMPRESARIAL SANTANDER LTDA",
+        "vigencia": "8 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-03-01",
+        "valor": 120000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1114669.9
+    },
+    {
+      "id": "C015-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-015",
+        "objeto_contractual": "COOPERACION PARA EL DESARROLLO DEL PROGRAMA DE ATENCION INTEGRAL A PRIMERA INFANCIA.",
+        "nombre_contratista": "INVERSIONES PIEDECUESTA S.A.",
+        "vigencia": "4 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-01",
+        "valor": 63900000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1201442.73
+    },
+    {
+      "id": "C016-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-016",
+        "objeto_contractual": "CONVENIO DE ASOCIACION PARA EL FORTALECIMIENTO DE ORGANIZACIONES COMUNITARIAS EN ZONA RURAL",
+        "nombre_contratista": "SOLUCIONES AMBIENTALES DEL ORIENTE S.A.S.",
+        "vigencia": "4 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-02-01",
+        "valor": 360800000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1292377.91
+    },
+    {
+      "id": "C017-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-017",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES COMO CONTADOR PUBLICO PARA APOYAR LOS PROCESOS CONTABLES Y FINANCIEROS",
+        "nombre_contratista": "JUAN DAVID PEREZ CASTRO",
+        "vigencia": "6 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-01-15",
+        "valor": 175000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1390558.29
+    },
+    {
+      "id": "C018-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-018",
+        "objeto_contractual": "ADECUACION Y REMODELACION DE LAS INSTALACIONES DE LA SEDE ADMINISTRATIVA MUNICIPAL",
+        "nombre_contratista": "CONSULTORES ASOCIADOS DEL NORORIENTE S.A.S.",
+        "vigencia": "un (1) mes",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-06-01",
+        "valor": 120000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1478536.73
+    },
+    {
+      "id": "C019-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-019",
+        "objeto_contractual": "SUMINISTRO DE ELEMENTOS DE BIOSEGURIDAD PARA EL PERSONAL DE LA SECRETARIA DE SALUD.",
+        "nombre_contratista": "INVERSIONES PIEDECUESTA S.A.",
+        "vigencia": "10 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-15",
+        "valor": 42600000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1565979.66
+    },
+    {
+      "id": "C020-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-020",
+        "objeto_contractual": "CONSULTORIA PARA LA ACTUALIZACION DEL PLAN DE ORDENAMIENTO TERRITORIAL DEL MUNICIPIO",
+        "nombre_contratista": "ANDREA PATRICIA GOMEZ RUIZ",
+        "vigencia": "cuatro (4) meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-02-01",
+        "valor": 87500000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1662297.18
+    },
+    {
+      "id": "C021-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-021",
+        "objeto_contractual": "COMPRAVENTA DE MOBILIARIO Y DOTACION PARA LAS INSTITUCIONES EDUCATIVAS DEL MUNICIPIO.",
+        "nombre_contratista": "INGENIERIA CIVIL DEL ORIENTE LTDA",
+        "vigencia": "5 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-04-01",
+        "valor": 87500000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1751575.73
+    },
+    {
+      "id": "C022-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-022",
+        "objeto_contractual": "ARRENDAMIENTO DE EQUIPOS DE IMPRESION Y FOTOCOPIADO PARA LAS DEPENDENCIAS MUNICIPALES.",
+        "nombre_contratista": "ANA MARIA CASTILLO DUARTE",
+        "vigencia": "dos (2) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-03-15",
+        "valor": 500000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1844149.36
+    },
+    {
+      "id": "C023-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-023",
+        "objeto_contractual": "AUNAR ESFUERZOS TECNICOS, ADMINISTRATIVOS Y FINANCIEROS PARA LA IMPLEMENTACION DEL PROGRAMA DE VIVIENDA GRATUITA",
+        "nombre_contratista": "DIEGO ALEJANDRO TORRES VARGAS",
+        "vigencia": "12 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-01-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 1939204.51
+    },
+    {
+      "id": "C024-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-024",
+        "objeto_contractual": "CONVENIO PARA LA IMPLEMENTACION DE ESTRATEGIAS DE REACTIVACION ECONOMICA POST-PANDEMIA.",
+        "nombre_contratista": "JUAN DAVID PEREZ CASTRO",
+        "vigencia": "12 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-01-01",
+        "valor": 500000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2030042.45
+    },
+    {
+      "id": "C025-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-025",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES COMO CONTADOR PUBLICO PARA APOYAR LOS PROCESOS CONTABLES Y FINANCIEROS",
+        "nombre_contratista": "DIEGO ALEJANDRO TORRES VARGAS",
+        "vigencia": "1 mes",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-06-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2127551.68
+    },
+    {
+      "id": "C026-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-026",
+        "objeto_contractual": "CONSTRUCCION DEL PUENTE VEHICULAR SOBRE LA QUEBRADA SURATA EN EL SECTOR LOS ANGELES",
+        "nombre_contratista": "ANA MARIA CASTILLO DUARTE",
+        "vigencia": "12 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-01-01",
+        "valor": 120000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2218947.36
+    },
+    {
+      "id": "C027-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-027",
+        "objeto_contractual": "SUMINISTRO DE COMBUSTIBLE PARA EL PARQUE AUTOMOTOR DE LA ADMINISTRACION MUNICIPAL",
+        "nombre_contratista": "PEDRO LUIS RAMIREZ ORTIZ",
+        "vigencia": "10 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-15",
+        "valor": 120000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2309409.89
+    },
+    {
+      "id": "C028-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-028",
+        "objeto_contractual": "REALIZAR LA CONSULTORIA PARA LA ELABORACION DE LOS ESTUDIOS Y DISEÑOS DE LA RED DE ALCANTARILLADO",
+        "nombre_contratista": "CONSULTORES ASOCIADOS DEL NORORIENTE S.A.S.",
+        "vigencia": "nueve (9) meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-03-10",
+        "valor": 120000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2413094.95
+    },
+    {
+      "id": "C029-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-029",
+        "objeto_contractual": "COMPRAVENTA DE MAQUINARIA PESADA PARA EL MANTENIMIENTO DE LAS VIAS DEL MUNICIPIO",
+        "nombre_contratista": "DIEGO ALEJANDRO TORRES VARGAS",
+        "vigencia": "9 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-03-10",
+        "valor": 1200000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2500863.65
+    },
+    {
+      "id": "C030-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-030",
+        "objeto_contractual": "ARRENDAMIENTO DE VEHICULOS PARA EL TRANSPORTE ESCOLAR DE LAS VEREDAS DEL MUNICIPIO",
+        "nombre_contratista": "PEDRO LUIS RAMIREZ ORTIZ",
+        "vigencia": "3 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-01-20",
+        "valor": 120000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2585659.46
+    },
+    {
+      "id": "C031-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-031",
+        "objeto_contractual": "COOPERACION PARA EL DESARROLLO DEL PROGRAMA DE ATENCION INTEGRAL A PRIMERA INFANCIA",
+        "nombre_contratista": "CARLOS ANDRES MARTINEZ LOPEZ",
+        "vigencia": "diez (10) meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-02-15",
+        "valor": 87500000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2677457.63
+    },
+    {
+      "id": "C032-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-032",
+        "objeto_contractual": "CONVENIO DE ASOCIACION PARA EL FORTALECIMIENTO DE ORGANIZACIONES COMUNITARIAS EN ZONA RURAL",
+        "nombre_contratista": "PEDRO LUIS RAMIREZ ORTIZ",
+        "vigencia": "5 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-04-01",
+        "valor": 360800000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2761212.33
+    },
+    {
+      "id": "C033-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-033",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES EN PSICOLOGIA PARA ATENCION DE POBLACION VULNERABLE",
+        "nombre_contratista": "SERVICIOS LOGISTICOS NACIONALES S.A.S.",
+        "vigencia": "1 mes",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-06-01",
+        "valor": 500000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2856625.25
+    },
+    {
+      "id": "C034-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-034",
+        "objeto_contractual": "MEJORAMIENTO Y REHABILITACION DE LA VIA QUE CONDUCE AL CORREGIMIENTO DE CAFE MADRID",
+        "nombre_contratista": "SERVICIOS LOGISTICOS NACIONALES S.A.S.",
+        "vigencia": "cinco (5) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-04-01",
+        "valor": 91200000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 2953379.72
+    },
+    {
+      "id": "C035-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-035",
+        "objeto_contractual": "SUMINISTRO DE ELEMENTOS DE BIOSEGURIDAD PARA EL PERSONAL DE LA SECRETARIA DE SALUD.",
+        "nombre_contratista": "ANDREA PATRICIA GOMEZ RUIZ",
+        "vigencia": "8 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-03-01",
+        "valor": 25300000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3036226.68
+    },
+    {
+      "id": "C036-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-036",
+        "objeto_contractual": "INTERVENTORIA TECNICA, ADMINISTRATIVA, FINANCIERA Y AMBIENTAL DEL CONTRATO DE OBRA No. 045-2024",
+        "nombre_contratista": "SOLUCIONES AMBIENTALES DEL ORIENTE S.A.S.",
+        "vigencia": "cinco (5) meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-04-01",
+        "valor": 120000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3140737.51
+    },
+    {
+      "id": "C037-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-037",
+        "objeto_contractual": "COMPRAVENTA DE VEHICULO TIPO CAMIONETA DOBLE CABINA 4X4 PARA USO INSTITUCIONAL",
+        "nombre_contratista": "ANA MARIA CASTILLO DUARTE",
+        "vigencia": "un (1) mes",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-06-01",
+        "valor": 500000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3224666.09
+    },
+    {
+      "id": "C038-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-038",
+        "objeto_contractual": "ARRENDAMIENTO DE EQUIPOS DE IMPRESION Y FOTOCOPIADO PARA LAS DEPENDENCIAS MUNICIPALES.",
+        "nombre_contratista": "INGENIERIA CIVIL DEL ORIENTE LTDA",
+        "vigencia": "1 mes",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-06-01",
+        "valor": 1200000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3317766.04
+    },
+    {
+      "id": "C039-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-039",
+        "objeto_contractual": "COOPERACION PARA EL DESARROLLO DEL PROGRAMA DE ATENCION INTEGRAL A PRIMERA INFANCIA.",
+        "nombre_contratista": "SANTIAGO ANDRES HERRERA PINTO",
+        "vigencia": "6 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-01-15",
+        "valor": 63900000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3403411.67
+    },
+    {
+      "id": "C040-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-040",
+        "objeto_contractual": "CONVENIO DE ASOCIACION PARA EL FORTALECIMIENTO DE ORGANIZACIONES COMUNITARIAS EN ZONA RURAL.",
+        "nombre_contratista": "JUAN DAVID PEREZ CASTRO",
+        "vigencia": "10 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-02-15",
+        "valor": 25300000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3492761.45
+    },
+    {
+      "id": "C041-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-041",
+        "objeto_contractual": "PRESTAR SERVICIOS PROFESIONALES EN PSICOLOGIA PARA ATENCION DE POBLACION VULNERABLE",
+        "nombre_contratista": "DIEGO ALEJANDRO TORRES VARGAS",
+        "vigencia": "12 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-01-01",
+        "valor": 1200000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3575305.57
+    },
+    {
+      "id": "C042-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-042",
+        "objeto_contractual": "MEJORAMIENTO Y REHABILITACION DE LA VIA QUE CONDUCE AL CORREGIMIENTO DE CAFE MADRID",
+        "nombre_contratista": "INGENIERIA CIVIL DEL ORIENTE LTDA",
+        "vigencia": "1 mes",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-06-01",
+        "valor": 38400000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3659073.4
+    },
+    {
+      "id": "C043-SUM",
+      "success": true,
+      "data": {
+        "numero_contrato": "SUM-2024-043",
+        "objeto_contractual": "SUMINISTRO DE MATERIALES DE CONSTRUCCION PARA EL MANTENIMIENTO DE VIAS TERCIARIAS",
+        "nombre_contratista": "TECNOLOGIA Y SERVICIOS INTEGRADOS S.A.S.",
+        "vigencia": "un (1) mes",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-06-01",
+        "valor": 750000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Suministro"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3744042.64
+    },
+    {
+      "id": "C044-CON",
+      "success": true,
+      "data": {
+        "numero_contrato": "CON-2024-044",
+        "objeto_contractual": "CONSULTORIA PARA LA ACTUALIZACION DEL PLAN DE ORDENAMIENTO TERRITORIAL DEL MUNICIPIO.",
+        "nombre_contratista": "ALIMENTOS Y PROVISIONES COLOMBIA LTDA",
+        "vigencia": "6 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-01-15",
+        "valor": 63900000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Consultoría"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3829428.72
+    },
+    {
+      "id": "C045-CV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CV-2024-045",
+        "objeto_contractual": "COMPRAVENTA DE MAQUINARIA PESADA PARA EL MANTENIMIENTO DE LAS VIAS DEL MUNICIPIO",
+        "nombre_contratista": "CARLOS ANDRES MARTINEZ LOPEZ",
+        "vigencia": "cuatro (4) meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-02-01",
+        "valor": 245000000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Compraventa"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3911459.73
+    },
+    {
+      "id": "C046-ARR",
+      "success": true,
+      "data": {
+        "numero_contrato": "ARR-2024-046",
+        "objeto_contractual": "ARRENDAMIENTO DE INMUEBLE UBICADO EN LA CALLE 36 No. 18-20 PARA FUNCIONAMIENTO DE LA SECRETARIA DE GOBIERNO",
+        "nombre_contratista": "ALIMENTOS Y PROVISIONES COLOMBIA LTDA",
+        "vigencia": "8 meses",
+        "anio_contrato": 2023,
+        "fecha_inicial": "2024-03-01",
+        "valor": 91200000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Arrendamiento"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 3996320.68
+    },
+    {
+      "id": "C047-INT",
+      "success": true,
+      "data": {
+        "numero_contrato": "INT-2024-047",
+        "objeto_contractual": "ARTICULACION INTERINSTITUCIONAL PARA LA EJECUCION DEL PLAN DE CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+        "nombre_contratista": "JUAN DAVID PEREZ CASTRO",
+        "vigencia": "8 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-03-01",
+        "valor": 25300000.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Interadministrativo"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 4078307.9
+    },
+    {
+      "id": "C048-CONV",
+      "success": true,
+      "data": {
+        "numero_contrato": "CONV-2024-048",
+        "objeto_contractual": "CONVENIO DE COOPERACION PARA EL DESARROLLO DE PROGRAMAS DE INCLUSION SOCIAL",
+        "nombre_contratista": "INVERSIONES PIEDECUESTA S.A.",
+        "vigencia": "4 meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-02-01",
+        "valor": 91200000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Convenio"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 4152911.14
+    },
+    {
+      "id": "C049-PS",
+      "success": true,
+      "data": {
+        "numero_contrato": "PS-2024-049",
+        "objeto_contractual": "PRESTAR SERVICIOS DE APOYO A LA GESTION EN ACTIVIDADES ADMINISTRATIVAS DE LA SECRETARIA DE HACIENDA.",
+        "nombre_contratista": "ALIMENTOS Y PROVISIONES COLOMBIA LTDA",
+        "vigencia": "4 meses",
+        "anio_contrato": 2024,
+        "fecha_inicial": "2024-02-01",
+        "valor": 175000000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 4227561.63
+    },
+    {
+      "id": "C050-OBR",
+      "success": true,
+      "data": {
+        "numero_contrato": "OBR-2024-050",
+        "objeto_contractual": "CONSTRUCCION DE PAVIMENTO RIGIDO EN LA CARRERA 15 ENTRE CALLES 30 Y 45 DEL BARRIO ALARCON.",
+        "nombre_contratista": "ALIMENTOS Y PROVISIONES COLOMBIA LTDA",
+        "vigencia": "dos (2) meses",
+        "anio_contrato": 2025,
+        "fecha_inicial": "2024-03-15",
+        "valor": 91200000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Obra"
+      },
+      "error": null,
+      "cached": false,
+      "processing_time_ms": 4319567.32
+    }
+  ]
+}

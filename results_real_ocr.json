@@ -1,0 +1,741 @@
+{
+  "test": "real_ocr_multi_contract",
+  "source": "pages.txt",
+  "total_contracts": 11,
+  "results": [
+    {
+      "label": "Cert. No.0205",
+      "success": true,
+      "data": {
+        "numero_contrato": "0205",
+        "objeto_contractual": "El presente contrato tiene por objeto prestar los servicios profesionales como a Administradora Empresarial para desarrollar actividades encaminadas a dar soporte a las labores y funciones en el Grupo de Apoyo Logístico de la Secretaría Departamental de Salud.",
+        "nombre_contratista": null,
+        "vigencia": "90 días",
+        "anio_contrato": 2010,
+        "fecha_inicial": "2010-01-29",
+        "valor": 17748000.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 67.8,
+      "chars": 1483,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "0205",
+          "expected": "0205"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El presente contrato tiene por objeto prestar los servicios profesionales como a Administradora Empresarial para desarrollar actividades encaminadas a dar soporte a las labores y funciones en el Grupo de Apoyo Logístico de la Secretaría Departamental de Salud.",
+          "expected": "prestar los servicios profesionales como Administradora Empresarial"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 17748000.0,
+          "expected": 17748000
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2010,
+          "expected": 2010
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2010-01-29",
+          "expected": "2010-01-29"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "90 días",
+          "expected": "22 de Julio de 2010"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.0409",
+      "success": true,
+      "data": {
+        "numero_contrato": "0409",
+        "objeto_contractual": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, para dar apoyo técnico al grupo Técnico responsable de la Implementación del SIG de la secretaria Departamental de Salud, en la implementación del Sistema de Gestión de la Calidad, para el fortalecimiento y mejoramiento continuo de los servicios brindados por la Secretaría Departamental de Salud del Valle del Cauca.",
+        "nombre_contratista": null,
+        "vigencia": "9 meses",
+        "anio_contrato": 2011,
+        "fecha_inicial": "2011-03-18",
+        "valor": 30000000.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 58.2,
+      "chars": 1496,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "0409",
+          "expected": "0409"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, para dar apoyo técnico al grupo Técnico responsable de la Implementación del SIG de la secretaria Departamental de Salud, en la implementación del Sistema de Gestión de la Calidad, para el fortalecimiento y mejoramiento continuo de los servicios brindados por la Secretaría Departamental de Salud del Valle del Cauca.",
+          "expected": "prestación de servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 30000000.0,
+          "expected": 30000000
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2011,
+          "expected": 2011
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2011-03-18",
+          "expected": "2011-03-18"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "9 meses",
+          "expected": "31 de diciembre de 2011"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.0269",
+      "success": true,
+      "data": {
+        "numero_contrato": "0269",
+        "objeto_contractual": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, brindando apoyo a la Secretaría de salud en las actividades inherentes a la gestión para lo cual se contrata",
+        "nombre_contratista": null,
+        "vigencia": "9 meses",
+        "anio_contrato": 2012,
+        "fecha_inicial": "2012-03-29",
+        "valor": 31119000.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 78.0,
+      "chars": 2457,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "0269",
+          "expected": "0269"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, brindando apoyo a la Secretaría de salud en las actividades inherentes a la gestión para lo cual se contrata",
+          "expected": "prestación de servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 31119000.0,
+          "expected": 31119000
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2012,
+          "expected": 2012
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2012-03-29",
+          "expected": "2012-03-29"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "9 meses",
+          "expected": "31 de diciembre de 2012"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.0340",
+      "success": true,
+      "data": {
+        "numero_contrato": "0340",
+        "objeto_contractual": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, en la secretaría de salud para que ejecute las actividades inherentes al proceso financiero de la vigencia 2013",
+        "nombre_contratista": null,
+        "vigencia": "9 meses",
+        "anio_contrato": 2013,
+        "fecha_inicial": "2013-04-16",
+        "valor": 35000000.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 93.1,
+      "chars": 2442,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "0340",
+          "expected": "0340"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, en la secretaría de salud para que ejecute las actividades inherentes al proceso financiero de la vigencia 2013",
+          "expected": "prestación de servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 35000000.0,
+          "expected": 35000000
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2013,
+          "expected": 2013
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2013-04-16",
+          "expected": "2013-04-16"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "9 meses",
+          "expected": "31 de diciembre de 2013"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.1203",
+      "success": true,
+      "data": {
+        "numero_contrato": "1203",
+        "objeto_contractual": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, en la Secretaría de salud para que ejecute las actividades inherentes al proceso financiero de la vigencia 2013 - 2014",
+        "nombre_contratista": null,
+        "vigencia": "1 año",
+        "anio_contrato": 2013,
+        "fecha_inicial": "2013-11-08",
+        "valor": 39655000.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 165.8,
+      "chars": 6295,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "1203",
+          "expected": "1203"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "⚠️",
+          "extracted": "Jurídica",
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El presente contrato tiene por objeto la prestación de servicios profesionales como Administradora de Empresas, en la Secretaría de salud para que ejecute las actividades inherentes al proceso financiero de la vigencia 2013 - 2014",
+          "expected": "prestación de servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 39655000.0,
+          "expected": 39655000
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2013,
+          "expected": 2013
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2013-11-08",
+          "expected": "2013-12-05"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "1 año",
+          "expected": "31 de octubre de 2014"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.1257",
+      "success": true,
+      "data": {
+        "numero_contrato": "1257",
+        "objeto_contractual": "El objeto del contrato es prestación de Servicios Profesionales como Administradora de Empresas, en la Secretaría de salud para que ejecute las actividades inherentes al proceso de Gestión Integrada de Recursos de la Secretaría Departamental de Salud.",
+        "nombre_contratista": "null",
+        "vigencia": "null",
+        "anio_contrato": 2014,
+        "fecha_inicial": "2013-12-05",
+        "valor": 48162800.0,
+        "tipo_persona": "Jurídica",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 111.9,
+      "chars": 2986,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "1257",
+          "expected": "1257"
+        },
+        "nombre_contratista": {
+          "status": "⚠️",
+          "extracted": "null",
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "⚠️",
+          "extracted": "Jurídica",
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "El objeto del contrato es prestación de Servicios Profesionales como Administradora de Empresas, en la Secretaría de salud para que ejecute las actividades inherentes al proceso de Gestión Integrada de Recursos de la Secretaría Departamental de Salud.",
+          "expected": "prestación de Servicios Profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 48162800.0,
+          "expected": 48162800
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2014,
+          "expected": 2014
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2013-12-05",
+          "expected": "2013-12-05"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "null",
+          "expected": "31 de diciembre de 2015"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.090-18-11-0584",
+      "success": true,
+      "data": {
+        "numero_contrato": "090-18-11-0584",
+        "objeto_contractual": "Prestar los Servicios Profesionales como Administradora de Empresas, para fortalecer desde su perfil a la Secretaria Departamental de Salud del Valle y desarrollar actividades encaminadas a hacer cumplir las competencias de la Entidad Territorial.",
+        "nombre_contratista": null,
+        "vigencia": "6 meses",
+        "anio_contrato": 2016,
+        "fecha_inicial": "2016-04-11",
+        "valor": 31787560.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 155.2,
+      "chars": 4143,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "090-18-11-0584",
+          "expected": "090-18-11-0584"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "Prestar los Servicios Profesionales como Administradora de Empresas, para fortalecer desde su perfil a la Secretaria Departamental de Salud del Valle y desarrollar actividades encaminadas a hacer cumplir las competencias de la Entidad Territorial.",
+          "expected": "Prestar los Servicios Profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 31787560.0,
+          "expected": 31787560
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2016,
+          "expected": 2016
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2016-04-11",
+          "expected": "2016-04-11"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "6 meses",
+          "expected": "30 de noviembre de 2016"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.090-18-11-0316",
+      "success": true,
+      "data": {
+        "numero_contrato": "090-18-11-0316",
+        "objeto_contractual": "Prestar los servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y Financiera de la Secretaria Departamental de Salud del Valle del Cauca",
+        "nombre_contratista": null,
+        "vigencia": "3 meses",
+        "anio_contrato": 2017,
+        "fecha_inicial": "2017-07-31",
+        "valor": 7083417.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 132.0,
+      "chars": 3417,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "090-18-11-0316",
+          "expected": "090-18-11-0316"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "Prestar los servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y Financiera de la Secretaria Departamental de Salud del Valle del Cauca",
+          "expected": "servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 7083417.0,
+          "expected": 24794280
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2017,
+          "expected": 2017
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2017-07-31",
+          "expected": "2017-01-19"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "3 meses",
+          "expected": "31 de julio de 2017"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.090-18-11-4196",
+      "success": true,
+      "data": {
+        "numero_contrato": "090-18-11-4196",
+        "objeto_contractual": "En Desarrollo del proyecto denominado: Fortalecimiento de la Autoridad Sanitaria para la Gestión de la Salud a Nivel Territorial, se requiere contratar la Prestación de servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca.",
+        "nombre_contratista": null,
+        "vigencia": "1 año",
+        "anio_contrato": 2017,
+        "fecha_inicial": "2017-11-01",
+        "valor": 8264760.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 138.3,
+      "chars": 2289,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "090-18-11-4196",
+          "expected": "090-18-11-4196"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "En Desarrollo del proyecto denominado: Fortalecimiento de la Autoridad Sanitaria para la Gestión de la Salud a Nivel Territorial, se requiere contratar la Prestación de servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca.",
+          "expected": "servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 8264760.0,
+          "expected": 8264760
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2017,
+          "expected": 2017
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2017-11-01",
+          "expected": "2017-11-02"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "1 año",
+          "expected": "29 de diciembre de 2017"
+        }
+      }
+    },
+    {
+      "label": "Cert. No.090-18-11-0332",
+      "success": true,
+      "data": {
+        "numero_contrato": "090-18-11-0332",
+        "objeto_contractual": "Prestar servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca.",
+        "nombre_contratista": null,
+        "vigencia": null,
+        "anio_contrato": 2018,
+        "fecha_inicial": "2018-01-05",
+        "valor": 49588560.0,
+        "tipo_persona": null,
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 118.6,
+      "chars": 2523,
+      "score": 5,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "090-18-11-0332",
+          "expected": "090-18-11-0332"
+        },
+        "nombre_contratista": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "Prestar servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca.",
+          "expected": "servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 49588560.0,
+          "expected": 49588560
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2018,
+          "expected": 2018
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2018-01-05",
+          "expected": "2018-01-05"
+        },
+        "vigencia": {
+          "status": "❌",
+          "extracted": null,
+          "expected": "31 de diciembre de 2018"
+        }
+      }
+    },
+    {
+      "label": "Principal 2019 (No.0006)",
+      "success": true,
+      "data": {
+        "numero_contrato": "SSD_1 .220.02-59.2-0006",
+        "objeto_contractual": "Prestar servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca",
+        "nombre_contratista": "ERIKA MARIA PALOMINO BOLIVAR",
+        "vigencia": "12 Meses",
+        "anio_contrato": 2019,
+        "fecha_inicial": "2019-01-04",
+        "valor": 49588560.0,
+        "tipo_persona": "Natural",
+        "tipo_contrato": "Prestación de servicios"
+      },
+      "time_s": 211.2,
+      "chars": 8970,
+      "score": 7,
+      "total": 9,
+      "evaluation": {
+        "numero_contrato": {
+          "status": "✅",
+          "extracted": "SSD_1 .220.02-59.2-0006",
+          "expected": "1.220.02-59.2-0006"
+        },
+        "nombre_contratista": {
+          "status": "✅",
+          "extracted": "ERIKA MARIA PALOMINO BOLIVAR",
+          "expected": "ERIKA MARIA PALOMINO BOLIVAR"
+        },
+        "tipo_persona": {
+          "status": "✅",
+          "extracted": "Natural",
+          "expected": "Natural"
+        },
+        "tipo_contrato": {
+          "status": "✅",
+          "extracted": "Prestación de servicios",
+          "expected": "Prestación de servicios"
+        },
+        "objeto_contractual": {
+          "status": "✅",
+          "extracted": "Prestar servicios profesionales como Administradora de Empresas, para fortalecer desde su perfil las funciones desarrolladas por la Subsecretaría Administrativa y financiera de la Secretaria Departamental de Salud del Valle del Cauca",
+          "expected": "servicios profesionales como Administradora de Empresas"
+        },
+        "valor": {
+          "status": "⚠️",
+          "extracted": 49588560.0,
+          "expected": 49588560
+        },
+        "anio_contrato": {
+          "status": "✅",
+          "extracted": 2019,
+          "expected": 2019
+        },
+        "fecha_inicial": {
+          "status": "✅",
+          "extracted": "2019-01-04",
+          "expected": "2019-01-14"
+        },
+        "vigencia": {
+          "status": "⚠️",
+          "extracted": "12 Meses",
+          "expected": "31 de diciembre de 2019"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "ok": 11,
+    "fail": 0,
+    "score": 57,
+    "fields": 99,
+    "accuracy": 57.6,
+    "time_s": 1330.6
+  }
+}
