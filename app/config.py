@@ -4,9 +4,10 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    ollama_base_url: str = "http://localhost:11434"
-    ollama_model: str = "qwen3:8b"
-    ollama_timeout: int = 120
+    ollama_base_url: str = "https://ollama.com"
+    ollama_model: str = "qwen3.5:cloud"
+    ollama_api_key: str = "42f62d7ad6e04c8db2dec179ca37b6d6.N8S8UE_HUoWn95exkc2aCnIb"
+    ollama_timeout: int = 600
     ollama_temperature: float = 0.1
     ollama_num_ctx: int = 8192
 

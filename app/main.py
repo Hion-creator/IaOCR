@@ -12,7 +12,7 @@ from app.schemas import DocumentRequest, DocumentResponse
 app = FastAPI(
     title="IaOCR – Extracción de Contratos",
     description=(
-        "Backend con IA local (Ollama) para extraer datos de contratos colombianos.\n\n"
+        "Backend con IA (Ollama local o cloud) para extraer datos de contratos colombianos.\n\n"
         "**Concepto:** Cada documento OCR = UN solo contrato. El sistema filtra ruido \n"
         "(hojas de vida, experiencia, cuotas mensuales) y extrae los 9 campos del contrato principal.\n\n"
         "**Autenticación:** Envía el header `X-API-Key` con tu clave.\n\n"
@@ -44,6 +44,7 @@ async def health():
     return {
         "status": "ok" if alive else "ollama_offline",
         "ollama_url": settings.ollama_base_url,
+        "ollama_cloud_api": settings.ollama_base_url.rstrip("/").startswith("https://ollama.com"),
         "default_model": settings.ollama_model,
         "models": models,
         "auth_mode": auth_mode,
@@ -96,7 +97,10 @@ async def extract(
 ):
     alive = await ollama_health()
     if not alive:
-        raise HTTPException(503, "Ollama no está corriendo. Ejecuta: ollama serve")
+        raise HTTPException(
+            503,
+            "No se pudo conectar con Ollama. Verifica OLLAMA_BASE_URL y, si usas cloud, define OLLAMA_API_KEY.",
+        )
 
     # Validar extensión
     if file.filename and not file.filename.lower().endswith(".txt"):

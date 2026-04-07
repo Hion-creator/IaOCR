@@ -1,10 +1,10 @@
 # IaOCR — Extracción Inteligente de Contratos
 
-Backend con **IA local** (Ollama) que extrae datos estructurados de contratos públicos colombianos a partir de texto OCR.
+Backend con **IA** (Ollama local o cloud) que extrae datos estructurados de contratos públicos colombianos a partir de texto OCR.
 
 **Concepto:** Cada documento OCR = **UN solo contrato**. El sistema filtra automáticamente el ruido (hojas de vida, experiencia laboral, cuotas mensuales repetitivas) y extrae los 9 campos del contrato principal.
 
-**Procesamiento 100% local** — ningún dato sale de tu servidor.
+**Procesamiento configurable**: local en tu servidor o cloud con Ollama API.
 
 ---
 
@@ -79,8 +79,9 @@ pip install -r requirements.txt
 Crear un archivo `.env` en la raíz del proyecto:
 
 ```env
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=qwen3:14b
+OLLAMA_BASE_URL=https://ollama.com
+OLLAMA_MODEL=qwen3.5:cloud
+OLLAMA_API_KEY=tu-api-key-ollama-cloud
 OLLAMA_TIMEOUT=600
 OLLAMA_TEMPERATURE=0.1
 OLLAMA_NUM_CTX=4096
@@ -90,8 +91,9 @@ API_KEYS_RAW=sk-tu-clave-aqui-001,sk-tu-clave-aqui-002
 
 | Variable | Descripción | Default |
 |---|---|---|
-| `OLLAMA_BASE_URL` | URL del servidor Ollama | `http://localhost:11434` |
-| `OLLAMA_MODEL` | Modelo a utilizar | `qwen3:14b` |
+| `OLLAMA_BASE_URL` | URL de Ollama (local o cloud) | `https://ollama.com` |
+| `OLLAMA_MODEL` | Modelo a utilizar | `qwen3.5:cloud` |
+| `OLLAMA_API_KEY` | API key para Ollama Cloud (Bearer) | *(vacío)* |
 | `OLLAMA_TIMEOUT` | Timeout por request (segundos) | `600` |
 | `OLLAMA_TEMPERATURE` | Creatividad del modelo (0.0–1.0) | `0.1` |
 | `OLLAMA_NUM_CTX` | Ventana de contexto (tokens) | `4096` |
@@ -102,13 +104,30 @@ API_KEYS_RAW=sk-tu-clave-aqui-001,sk-tu-clave-aqui-002
 
 ## Arrancar el Servidor
 
-### 1. Asegurarse de que Ollama esté corriendo
+### 1. Configurar modo de conexión a Ollama
+
+#### Opción A (Cloud API - recomendado para `qwen3.5:cloud`)
+
+No requiere `ollama serve`.
+
+```env
+OLLAMA_BASE_URL=https://ollama.com
+OLLAMA_MODEL=qwen3.5:cloud
+OLLAMA_API_KEY=tu-api-key-ollama-cloud
+```
+
+#### Opción B (Ollama local)
+
+```env
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=qwen3:14b
+```
 
 ```bash
 ollama serve
 ```
 
-> En Windows, Ollama normalmente corre como servicio al instalarse.
+> En Windows, Ollama normalmente corre como servicio al instalarse (solo modo local).
 
 ### 2. Iniciar la API
 
@@ -127,9 +146,10 @@ Respuesta esperada:
 ```json
 {
   "status": "ok",
-  "ollama_url": "http://localhost:11434",
-  "default_model": "qwen3:14b",
-  "models": ["qwen3:14b"],
+  "ollama_url": "https://ollama.com",
+  "ollama_cloud_api": true,
+  "default_model": "qwen3.5:cloud",
+  "models": ["qwen3.5:cloud"],
   "auth_mode": "api_key"
 }
 ```
@@ -172,7 +192,7 @@ Respuesta:
     "tipo_persona": "Natural",
     "tipo_contrato": "Prestación de servicios"
   },
-  "model_used": "qwen3:14b",
+  "model_used": "qwen3.5:cloud",
   "total_chars": 629277,
   "prepared_chars": 9650,
   "processing_time_ms": 121000,
