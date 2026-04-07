@@ -231,6 +231,8 @@ def _remove_repetitive_cuotas(text: str) -> str:
     result = []
     skip_until_next_section = False
     cuota_count = 0
+    removed_lines = 0
+    found_section_end = False
 
     for i, line in enumerate(lines):
         # Detectar inicio de cuota mensual
@@ -240,6 +242,7 @@ def _remove_repetitive_cuotas(text: str) -> str:
                 skip_until_next_section = False
             else:
                 skip_until_next_section = True
+                removed_lines += 1
             cuota_count += 1
             continue
 
@@ -249,9 +252,21 @@ def _remove_repetitive_cuotas(text: str) -> str:
             line, re.IGNORECASE,
         ):
             skip_until_next_section = False
+            found_section_end = True
 
         if not skip_until_next_section:
             result.append(line)
+        else:
+            removed_lines += 1
+
+    # Si nunca se encontró una nueva sección importante, no arriesgarse a perder
+    # casi todo el OCR por una detección falsa en una tabla índice.
+    if skip_until_next_section and not found_section_end:
+        return text
+
+    # Salvaguarda adicional: evita recortes excesivos cuando el patrón no aplica.
+    if lines and (removed_lines / len(lines)) > 0.70:
+        return text
 
     return "\n".join(result)
 
